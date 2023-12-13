@@ -24,4 +24,3 @@ Copyright (c) 2023 - Mechanomy LLC
 
 ## License
 Released under [MIT](./license.md).
-
