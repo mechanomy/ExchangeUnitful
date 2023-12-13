@@ -1,4 +1,6 @@
 # ExchangeUnitful
+[![Build Status](https://github.com/mechanomy/ExchangeUnitful.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/mechanomy/ExchangeUnitful.jl/actions/workflows/CI.yml?query=branch%3Amain)
+
 This package enables conversion of [Unitful](https://github.com/PainterQubits/Unitful.jl) types into [UnitTypes](https://github.com/mechanomy/UnitTypes.jl) for units whose unit symbols are identical.
 See UnitTypes for more information.
 
@@ -17,7 +19,6 @@ using UnitTypes, ExchangeUnitful
 @show convert(typeof(1u"m"), Meter(1.2))
 ```
 
-<!-- [![Build Status](https://github.com/mechanomy/ExchangeUnitful.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/mechanomy/ExchangeUnitful.jl/actions/workflows/CI.yml?query=branch%3Amain) -->
 
 ## Copyright
 Copyright (c) 2023 - Mechanomy LLC
