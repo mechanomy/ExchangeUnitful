@@ -2,12 +2,7 @@
 
 julia_version = "1.9.2"
 manifest_format = "2.0"
-project_hash = "e04a6fb8505b8ba0482d6378349d29498b18e9c1"
-
-[[deps.AbstractTrees]]
-git-tree-sha1 = "faa260e4cb5aba097a73fab382dd4b5819d8ec8c"
-uuid = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
-version = "0.4.4"
+project_hash = "c2f002fd4a45358c942dbc8cf1a3c4a07b10f363"
 
 [[deps.ArgTools]]
 uuid = "0dad84c5-d112-42e6-8d28-ef12dabb789f"
@@ -172,12 +167,10 @@ uuid = "cf7118a7-6976-5b1a-9a39-7adc72f591a4"
 uuid = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [[deps.UnitTypes]]
-deps = ["AbstractTrees", "Compat", "DocStringExtensions", "Reexport", "Test", "TestItemRunner", "TestItems"]
-git-tree-sha1 = "b9d63676c55f786d739ac61dbeb0bb0ccdc6bc28"
-repo-rev = "main"
-repo-url = "../UnitTypes_public"
+deps = ["Compat", "DocStringExtensions", "Reexport", "Test", "TestItemRunner", "TestItems"]
+git-tree-sha1 = "fbde79cb46e8c1fa1a539105cb7406266402ac1c"
 uuid = "b0895f2b-ad30-48b9-9e38-efbd1231cd91"
-version = "0.0.3"
+version = "0.0.5"
 
 [[deps.Unitful]]
 deps = ["Dates", "LinearAlgebra", "Random"]
